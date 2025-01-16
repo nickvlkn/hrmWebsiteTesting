@@ -22,6 +22,7 @@ import hrm.neotech.utils.ConfigsReader;
 
 public class HrmAddEmployee extends BaseClass {
 	
+	//Comment from Priya - To delete later
 	public static void login(WebDriver driver){
 		//3. Login into the application
 		driver.findElement(By.id("txtUsername")).sendKeys(ConfigsReader.getProperty("username"));
