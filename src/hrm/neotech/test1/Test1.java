@@ -31,6 +31,7 @@ import hrm.neotech.utils.BaseClass;
 
 public class Test1 extends BaseClass {
 
+	//For all classes this is the main method you are using?
 	public static void main(String[] args) throws InterruptedException {
 		//https://hrm.neotechacademy.com/  
 		//If web site asking CAPTCHA my code is stuck. //org.openqa.selenium.NoSuchElementException:
