@@ -19,14 +19,13 @@ public class CheckboxDemo extends BaseClass{
 		{
 			boolean selected=checkbox.isSelected();
 			System.out.println(selected);
+			
 			if(!checkbox.isSelected())
 			{
 				checkbox.click();
 		}
 			
 		}
-		
-		
 		//tearDown();
 
 	}

@@ -9,8 +9,10 @@ import hrm.neotech.utils.ConfigsReader;
 
 public class Test1_loginInvalidValue extends BaseClass {
 	
-	public void LoginInvalidValue (WebDriver driver)throws InterruptedException {
- 
+	public void LoginInvalidValue (WebDriver driver)throws InterruptedException { 
+	
+	
+     
 		Thread.sleep(1000);
 		//Login Orage Hrm
 		//User name: Admin 
@@ -62,6 +64,6 @@ public class Test1_loginInvalidValue extends BaseClass {
 			System.out.println("PASS: Login succes. Welcome " + name );
 		
 		Thread.sleep(1000);
-	 
+	
 	}
 }
